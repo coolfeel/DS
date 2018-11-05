@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+
+//欧几里德算法
 int gcd(int a, int b) {
     if (b == 0)
         return a;
